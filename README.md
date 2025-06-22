@@ -31,13 +31,15 @@ To use this module, add it to the modules array in the `config/config.js` file:
     {
         module: 'MMM-SonarrCalendar',
         position: 'top_left',
-        host: "http://192.168.1.10:8989", // Sonarr URL
-        apiKey: "", // Sonarr API Key
-        refreshInterval: 15, // Fetch Calendar every 15 minutes
-        title: "Upcoming Episodes", // Title Displayed in Header
-        displayHeader: true, // Show Sonarr Logo & Title
-        maxDays: 7, // Max number of days to pull
-        maxEpisodes: 10 // Max number of episodes to display
+        config: {
+            host: "http://192.168.1.10:8989", // Sonarr URL
+            apiKey: "", // Sonarr API Key
+            refreshInterval: 15, // Fetch Calendar every 15 minutes
+            title: "Upcoming Episodes", // Title Displayed in Header
+            displayHeader: true, // Show Sonarr Logo & Title
+            maxDays: 7, // Max number of days to pull
+            maxEpisodes: 10 // Max number of episodes to display
+        }
     },
 ```
 
