@@ -1,0 +1,25 @@
+{% if displayHeader %}
+<div class="sonarr-header">
+    <img class="logo" src="modules/MMM-SonarrCalendar/logo.svg" alt="Sonarr Logo" />
+    <h2>{{ title }}</h2>
+</div>
+{% endif %}
+<div class="sonarr-container">
+    {% if episodes.length == 0 %}
+        <div class="dimmed light small">No upcoming episodes.</div>
+    {% else %}
+        {% for ep in episodes %}
+            <div class="sonarr-episode">
+                <div class="poster" style="background-image:url('{{ ep.poster }}')"></div>
+                <div>
+                    <h3 class="episode-name">{{ ep.show }}</h3>
+                    <div class="episode-details">
+                        <div class="se {{ ep.finaleType }}"><span>S{{ ep.season }}E{{ ep.episode }}</span></div>
+                        <div class="title">{{ ep.title }}</div>
+                    </div>
+                    <div class="air-date {{ ep.airClass }}">{{ ep.airDate }}</div>
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+</div>

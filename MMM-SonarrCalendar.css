@@ -1,0 +1,115 @@
+.MMM-SonarrCalendar {
+	width: 100%;
+	padding: .75em;
+	border-radius: 8px;
+	font-size: 20px;
+    line-height: 1em;
+    background: rgba(0,0,0,.55);
+	color: #fff;
+}
+
+.MMM-SonarrCalendar .sonarr-header {
+	display: flex;
+	align-items: center;
+    padding-bottom: .75em;
+    margin-bottom: 1em;
+	border-bottom: 1px solid rgba(0, 0, 0, .25);
+}
+
+.MMM-SonarrCalendar .sonarr-header h2 {
+    margin: 0;
+	font-size: 1.15em;
+}
+
+.MMM-SonarrCalendar .sonarr-header .logo {
+	width: 36px;
+	height: auto;
+	margin-right: 16px;
+}
+
+.MMM-SonarrCalendar .sonarr-episode {
+	display: flex;
+	align-items: center;
+	padding: .5em;  
+    margin-bottom: .75em;
+	border-radius: .15em;
+    background: rgba(0, 0, 0, .55);
+	text-align: left;
+}
+
+.MMM-SonarrCalendar .sonarr-episode:last-child { margin-bottom: 0; }
+
+.MMM-SonarrCalendar .sonarr-episode .poster {
+	margin-right: 1em;
+	width: 60px;
+	height: 89px;
+	border-radius: .15em;
+    background-color: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.MMM-SonarrCalendar .episode-name {
+	margin: 0 0 .5em 0;
+    font-size: 1em;
+	line-height: 1.1em;
+	max-width: 275px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.MMM-SonarrCalendar .sonarr-episode .episode-details {
+	display: flex;
+	align-items: center;
+	margin-bottom: .65em;
+}
+
+.MMM-SonarrCalendar .episode-details .se {
+	margin-right: .75em;
+	padding: .4em;
+    border-radius: .25em;
+	border: 1px solid #eeeeee17;
+    background: #37608b2e;
+    color: #eee;
+    font-size: .65em;
+	line-height: .6em;
+	font-weight: bold;
+}
+
+.MMM-SonarrCalendar .episode-details .se.season {
+	border-color: #00ccff;
+    background: #00ccff;
+	color: #00171c;
+}
+
+.MMM-SonarrCalendar .episode-details .se.midseason {
+	border-color: #00ccff;
+    color: #00ccff;
+}
+
+.MMM-SonarrCalendar .episode-details .se.series {
+	border-color: #e72222;
+    background: #e72222;
+	color: #fff;
+}
+
+.MMM-SonarrCalendar .episode-details .title {
+	font-size: .8em;
+    max-width: 225px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	color: #c1bbbb;
+}
+
+.MMM-SonarrCalendar .air-date {
+	color: #938585;
+	font-size: .85em;
+	text-transform: uppercase;
+}
+
+
+.MMM-SonarrCalendar .today { color: #12db67; }
+.MMM-SonarrCalendar .tomorrow { color: #00ccff; }
