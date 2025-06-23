@@ -44,4 +44,17 @@ To use this module, add it to the modules array in the `config/config.js` file:
     },
 ```
 
+## Configuration options
+
+Option|Possible values|Default|Description
+------|------|------|-----------
+`host`|`string`||Sonarr server address
+`apiKey`|`string`||Sonarr API key
+`refreshInterval`|`number`|`15`|Calendar fetch interval in minutes
+`apiKey`|`string`||Sonarr API key
+`title`|`string`|`Upcoming Episodes`|Header title
+`displayHeader`|`boolean`|`true`|Show header with logo/title
+`maxDays`|`number`|`7`|Max number of days to show
+`maxEpisodes`|`number`|`10`|Max number of episodes to show
+
 [mm]: https://github.com/MagicMirrorOrg/MagicMirror
