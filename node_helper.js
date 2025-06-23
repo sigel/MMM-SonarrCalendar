@@ -65,7 +65,6 @@ module.exports = NodeHelper.create({
         const end = endDate.toISOString();
             
         const url = `${this.config.host}/api/v3/calendar?start=${start}&end=${end}&includeSeries=true`;
-        console.log(url);
         let episodes = []; 
 
 

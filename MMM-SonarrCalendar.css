@@ -54,9 +54,9 @@
 
 .MMM-SonarrCalendar .episode-name {
 	margin: 0 0 .5em 0;
-    font-size: 1em;
+    font-size: .9em;
 	line-height: 1.1em;
-	max-width: 275px;
+	max-width: 255px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -108,7 +108,7 @@
 
 .MMM-SonarrCalendar .air-date {
 	color: #938585;
-	font-size: .85em;
+	font-size: .8em;
 	text-transform: uppercase;
 }
 
