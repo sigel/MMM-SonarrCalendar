@@ -37,6 +37,8 @@
 	text-align: left;
 }
 
+.MMM-SonarrCalendar .sonarr-episode.downloaded { background: rgb(23 53 0 / 55%); }
+
 .MMM-SonarrCalendar .sonarr-episode:last-child { margin-bottom: 0; }
 
 .MMM-SonarrCalendar .sonarr-episode .poster {

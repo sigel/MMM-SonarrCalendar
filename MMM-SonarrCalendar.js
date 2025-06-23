@@ -68,6 +68,7 @@ Module.register("MMM-SonarrCalendar", {
                     season: ep.seasonNumber,
                     episode: ep.episodeNumber,
                     finaleType: ep.finaleType || "regular",
+                    alreadyDownloaded: !!ep.episodeFileId,
                     poster: posterImage ? posterImage.remoteUrl : null,
                     airDate: label,
                     airClass: dateClass
