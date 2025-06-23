@@ -56,7 +56,7 @@
 	margin: 0 0 .5em 0;
     font-size: .9em;
 	line-height: 1.1em;
-	max-width: 255px;
+	max-width: 225px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -98,7 +98,7 @@
 }
 
 .MMM-SonarrCalendar .episode-details .title {
-	font-size: .8em;
+	font-size: .75em;
     max-width: 225px;
     white-space: nowrap;
     overflow: hidden;

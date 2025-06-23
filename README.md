@@ -4,6 +4,7 @@ MagicMirror² module to display upcoming shows from Sonarr. (In Progress)
 
 # Screenshots
 
+![Example of MMM-SonarrCalendar](http://sigelnetwork.com/wp-content/uploads/2025/06/MMM-SonarrCalendar-Screenshot-1.jpg)
 
 ## Installation
 
