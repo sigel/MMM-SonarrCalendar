@@ -57,7 +57,6 @@ module.exports = NodeHelper.create({
         }
         
         const now = new Date();
-        //now.setHours(0, 0, 0, 0);
         const start = now.toISOString();
 
         const endDate = new Date(now);

@@ -1,6 +1,6 @@
 # MMM-SonarrCalendar
 
-MagicMirror² module to display upcoming shows from Sonarr. (In Progress)
+MagicMirror² module to display upcoming episodes from Sonarr.
 
 # Screenshots
 

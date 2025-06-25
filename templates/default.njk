@@ -9,7 +9,7 @@
         <div class="dimmed light small">No upcoming episodes.</div>
     {% else %}
         {% for ep in episodes %}
-            <div class="sonarr-episode{% if alreadyDownloaded %} downloaded{% endif %}">
+            <div class="sonarr-episode{% if ep.hasFile %} downloaded{% endif %}">
                 <div class="poster" style="background-image:url('{{ ep.poster }}')"></div>
                 <div>
                     <h3 class="episode-name">{{ ep.show }}</h3>
