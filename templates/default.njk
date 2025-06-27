@@ -14,7 +14,7 @@
                 <div>
                     <h3 class="episode-name">{{ ep.show }}</h3>
                     <div class="episode-details">
-                        <div class="se {{ ep.finaleType }}"><span>S{{ ep.season }}E{{ ep.episode }}</span></div>
+                        <div class="se {{ ep.finaleType }}{% if ep.episode == 1 %} premiere{% endif %}"><span>S{{ ep.season }}E{{ ep.episode }}</span></div>
                         <div class="title">{{ ep.title }}</div>
                     </div>
                     <div class="air-date {{ ep.airClass }}">{{ ep.airDate }}</div>

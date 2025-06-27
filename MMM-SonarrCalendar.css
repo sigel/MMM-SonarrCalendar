@@ -97,6 +97,12 @@
 	color: #fff;
 }
 
+.MMM-SonarrCalendar .episode-details .se.premiere {
+	border-color: #2db31d;
+    background: #159124;
+    color: #fff;
+}
+
 .MMM-SonarrCalendar .episode-details .title {
 	font-size: .75em;
     max-width: 225px;
